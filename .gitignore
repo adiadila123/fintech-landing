@@ -1,0 +1,11 @@
+# System files
+.DS_Store
+
+# WebStorm / JetBrains project files
+.idea/
+
+# Logs and cache
+*.log
+node_modules/
+dist/
+
