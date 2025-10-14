@@ -57,3 +57,11 @@ git clone https://github.com/adiadila123/fintech-landing.git
 # Open in browser
 cd fintech-landing
 open index.html
+
+🧑‍💻 Author
+
+Adi Ionescu
+Web Developer | UI Designer | Business & Management Student
+📧 hello@example.com
+
+🌐 https://adiwebstudio.netlify.app
