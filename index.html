@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en-GB" data-theme="light">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Adi — Portfolio</title>
+    <meta name="description" content="Adi — web designer & front-end developer. Clean, fast, typographic websites for modern organisations." />
+    <meta name="theme-color" content="#004e98" />
+
+    <!-- Fonts & Styles -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
+
+    <!-- Icons & CSS -->
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    <link rel="stylesheet" href="assets/style.css">
+
+    <!-- Open Graph (optional) -->
+    <meta property="og:title" content="Adi — Portfolio" />
+    <meta property="og:description" content="Typographic, performance-minded websites for modern organisations." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/img/cover-portfolio.jpg" />
+</head>
+<body id="top">
+<!-- ===========================
+     SIDEBAR (fixed / collapsible)
+============================ -->
+<aside class="sidebar" aria-label="Primary">
+    <a class="brand" href="#top" aria-label="Home">
+        <!-- Badge logo (uses brand colours; distinct from Fintech LP) -->
+        <div class="logo" aria-label="Adi Web Studio logo">
+            <svg viewBox="0 0 64 64" width="36" height="36" xmlns="http://www.w3.org/2000/svg" role="img">
+                <defs>
+                    <linearGradient id="gradB" x1="0" y1="0" x2="1" y2="1">
+                        <stop offset="0%" stop-color="var(--brand)" />
+                        <stop offset="100%" stop-color="var(--brand-2)" />
+                    </linearGradient>
+                </defs>
+                <path d="M32 12L54 52H44L32 28L20 52H10L32 12Z" fill="url(#gradB)" />
+                <rect x="30" y="28" width="4" height="16" rx="2" fill="var(--accent)" opacity="0.85"/>
+            </svg>
+        </div>
+
+        <span class="brand-text">
+        <strong>Adi</strong>
+        <small>Web Designer & Front-end</small>
+      </span>
+    </a>
+
+    <nav class="vnav" id="vnav" aria-label="Site">
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="sidebar-actions">
+        <button id="theme-toggle" class="theme-toggle" type="button" aria-pressed="false" aria-label="Toggle light/dark theme">
+            <span class="icon" aria-hidden="true">🌙</span>
+            <span class="label">Dark</span>
+        </button>
+        <button class="menu-toggle" type="button" aria-controls="vnav" aria-expanded="false" aria-label="Toggle navigation">☰</button>
+    </div>
+</aside>
+
+<!-- ===========================
+     MAIN CONTENT
+============================ -->
+<main id="main" class="content" tabindex="-1">
+    <!-- ABOUT -->
+    <section id="about" class="section">
+        <h1>Designing clear, efficient, human-centred websites.</h1>
+        <p class="lead">
+            I’m a UK-based designer and front-end developer focused on accessibility, performance, and calm, typographic design.
+            I work with founders and small teams to ship reliable, well-structured sites.
+        </p>
+        <ul class="keypoints">
+            <li>Semantic HTML • modern CSS • vanilla JS</li>
+            <li>Accessible patterns and responsive layout</li>
+            <li>Measurable outcomes and tidy handover</li>
+        </ul>
+    </section>
+
+    <!-- WORK -->
+    <section id="work" class="section">
+        <div class="section-head">
+            <h2>Selected Work</h2>
+            <span class="caps">Recent projects</span>
+        </div>
+
+        <div class="work-grid">
+            <!-- Project 1 -->
+            <article class="work-card">
+                <img src="assets/img/project-fintech.jpg" alt="Fintech Landing Page" />
+                <div class="work-copy">
+                    <h3>Fintech Landing Page</h3>
+                    <p class="muted">A modern business consulting landing page built with HTML, CSS, and JavaScript.
+                        Designed for speed, clarity, and high conversion. Fully responsive and deployed via Netlify.</p>
+                    <div class="cta">
+                        <a href="https://adiwebstudio.netlify.app" class="btn" target="_blank" rel="noopener">Live Demo</a>
+                        <a href="https://github.com/adiwebstudio/fintech-landing" class="btn brand" target="_blank" rel="noopener">View Code</a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Project 2 -->
+            <article class="work-card">
+                <img src="assets/img/project-editorial.jpg" alt="Editorial Portfolio Website" />
+                <div class="work-copy">
+                    <h3>Editorial Portfolio</h3>
+                    <p class="muted">A typography-first, responsive portfolio with a fixed sidebar and focus on clarity and content quality.</p>
+                    <div class="cta">
+                        <a href="https://your-editorial-demo.netlify.app" class="btn">Live Demo</a>
+                        <a href="#" class="btn brand">View Code</a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Project 3 -->
+            <article class="work-card">
+                <img src="assets/img/project-agency.jpg" alt="Agency Redesign" />
+                <div class="work-copy">
+                    <h3>Agency Website Redesign</h3>
+                    <p class="muted">A modern refresh of an outdated agency website, built from Figma mockups and optimised for mobile performance.</p>
+                    <div class="cta">
+                        <a href="https://your-agency-demo.netlify.app" class="btn">Live Demo</a>
+                        <a href="#" class="btn brand">View Code</a>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="section">
+        <div class="section-head">
+            <h2>Services</h2>
+            <span class="caps">Fixed-fee, outcomes-led</span>
+        </div>
+
+        <div class="cards">
+            <article class="card">
+                <h3>Design</h3>
+                <p class="muted">UI layout and component design with accessible patterns.</p>
+                <ul>
+                    <li>Wireframes & visual design</li>
+                    <li>Type scale & spacing system</li>
+                    <li>Design tokens & colour</li>
+                </ul>
+            </article>
+
+            <article class="card">
+                <h3>Build</h3>
+                <p class="muted">Clean front-end build with semantic HTML, modern CSS, and JS.</p>
+                <ul>
+                    <li>Responsive structure</li>
+                    <li>Performance budgeting</li>
+                    <li>Accessible navigation</li>
+                </ul>
+            </article>
+
+            <article class="card">
+                <h3>Refresh</h3>
+                <p class="muted">Iterative redesign to improve clarity, speed, and consistency.</p>
+                <ul>
+                    <li>Audit & prioritised fixes</li>
+                    <li>Refactor CSS & layout</li>
+                    <li>Deploy & handover</li>
+                </ul>
+            </article>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+        <div class="section-head">
+            <h2>Get in touch</h2>
+            <span class="caps">Let’s discuss your site</span>
+        </div>
+
+        <!-- For Netlify Forms, uncomment attributes & hidden field -->
+        <!--
+        <form id="contact-form" name="contact" method="POST" action="/thanks.html"
+              data-netlify="true" netlify-honeypot="bot-field" novalidate>
+          <input type="hidden" name="form-name" value="contact">
+          <p class="sr-only"><label>Don’t fill this out: <input name="bot-field"></label></p>
+        -->
+        <form id="contact-form" class="contact-form" novalidate>
+            <div>
+                <label for="name" class="sr-only">Name</label>
+                <input id="name" name="name" placeholder="Your name" required />
+            </div>
+            <div>
+                <label for="email" class="sr-only">Email</label>
+                <input id="email" name="email" type="email" placeholder="you@company.co.uk" required />
+            </div>
+            <div class="full">
+                <label for="message" class="sr-only">Message</label>
+                <textarea id="message" name="message" placeholder="Tell me briefly about your goals…" required></textarea>
+            </div>
+            <div class="full cta">
+                <button type="submit" class="btn brand">Send message</button>
+                <span id="form-status" aria-live="polite" class="muted"></span>
+            </div>
+        </form>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>© <span id="year"></span> Adi. All rights reserved.</p>
+    </footer>
+</main>
+
+<!-- Scripts -->
+<script src="assets/script.js"></script>
+</body>
+</html>
