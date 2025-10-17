@@ -3,7 +3,7 @@
 A clean, fast, and responsive **business consulting landing page** designed for startups and fintech companies.  
 Built with **HTML, CSS, and JavaScript**, focused on clarity, speed, and conversion.
 
-🔗 **Live Demo:** [https://adiwebstudio.netlify.app](https://adiwebstudio.netlify.app)
+🔗 **Live Demo:** (https://fintech-kanding-page.netlify.app/)(https://fintech-kanding-page.netlify.app/)
 
 ---
 
